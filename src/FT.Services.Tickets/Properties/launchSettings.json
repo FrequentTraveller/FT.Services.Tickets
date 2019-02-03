@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "DFF.Services.Tickets": {
+    "FT.Services.Tickets": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

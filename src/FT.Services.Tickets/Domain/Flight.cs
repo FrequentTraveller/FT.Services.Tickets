@@ -1,10 +1,10 @@
-﻿using DFF.Common.Types;
+﻿using FT.Common.Types;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DFF.Services.Tickets.Domain
+namespace FT.Services.Tickets.Domain
 {
     public class Flight : IIdentifiable
     {

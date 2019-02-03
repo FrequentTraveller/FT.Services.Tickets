@@ -1,8 +1,8 @@
-﻿using DFF.Common.Types;
+﻿using FT.Common.Types;
 using System;
-using static DFF.Services.Tickets.Enums.TicketEnums;
+using static FT.Services.Tickets.Enums.TicketEnums;
 
-namespace DFF.Services.Tickets.Domain
+namespace FT.Services.Tickets.Domain
 {
     public class Ticket : IIdentifiable
     {

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace DFF.Services.Tickets
+namespace FT.Services.Tickets
 {
     public class Program
     {

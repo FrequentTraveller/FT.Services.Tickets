@@ -3,12 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-    <ProjectReference Include="..\..\..\DFF.Common\src\DFF.Common\DFF.Common.csproj" />
-  </ItemGroup>
   <ItemGroup Condition="'$(Configuration)' == 'Release'">
-    <PackageReference Include="DFF.Common" Version="1.0.*" />
+    <PackageReference Include="FT.Common" Version="1.0.*" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +13,10 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\FT.Common\src\FT.Common\FT.Common.csproj" />
   </ItemGroup>
 
 </Project>

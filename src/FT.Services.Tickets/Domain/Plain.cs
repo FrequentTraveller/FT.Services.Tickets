@@ -1,7 +1,7 @@
-﻿using DFF.Common.Types;
+﻿using FT.Common.Types;
 using System;
 
-namespace DFF.Services.Tickets.Domain
+namespace FT.Services.Tickets.Domain
 {
     public class Plain : IIdentifiable
     {
